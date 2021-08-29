@@ -1,0 +1,26 @@
+html, body, .full-page {
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+.home-bg {
+	position: relative;
+	background-image: url('.././img/bg.png');
+	background-size: 70% auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 600px) {
+	.home-bg {
+		background-size: 95% auto;
+	}
+
+	.home-subtitle {
+		top: 60%;
+	}
+
+	.text-introduction {
+		width: 70%;
+	}
+}
