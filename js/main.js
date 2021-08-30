@@ -16,7 +16,7 @@ var $body = $('body');
 var classStr = $body.attr('class');
 
 devtoolsDetector.addListener(function(isOpen) {
-    if (isOpen) mdui.alert('如果您确实想使用 F12 来学习代码结构（真的有人会看这个学！），那么我不会阻拦您。<br/><br/>禁止任何盗窃代码的行为，本人享有一切追究责任的权利', '请勿使用 F12');
+    if (isOpen) mdui.alert('如果您确实想使用 F12 来学习代码结构（真的有人会看这个学！），那么我不会阻拦您。<br/><br/>禁止任何盗窃代码的行为，本人享有一切追究责任的权利', '请勿使用 Developer Tools (F12)');
 });
 
 devtoolsDetector.launch();
